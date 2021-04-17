@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <h3>Contact Details</h3>
@@ -12,13 +13,30 @@
       <br><a href="https://github.com/akkiind4">Github</a>
       <br>akkiind4@gmail.com
     </div>
-    <div class="form">
+    <!--<div class="form">
       <form class="" action="index.html" method="post">
         <label for="">Your Name</label>
         <input type="text" name="" value="">
         <input type="submit" name="">
-        <!--<button type="button" name="button">Submit</button>-->
+        <button type="button" name="button">Submit</button>
       </form>
-    </div>
+    </div>-->
+    <form action="mailto:akkiind4@gmail.com" method="post">
+ <ul>
+  <li>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </li>
+  <li>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_email">
+  </li>
+  <li>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+ </ul>
+ <button type="button" name="button">Submit</button>
+</form>
   </body>
 </html>
